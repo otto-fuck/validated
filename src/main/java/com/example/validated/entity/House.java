@@ -21,9 +21,9 @@ public class House {
   private Integer price;
   private String name;
   private long studentId;
-//  @FieldLength(type = "float4",message = "float的取值范围")
-//  private float haha;
-//  @FieldLength(type ="float8",message = "超出float8的取值范围")
-//  private Double dou;
+  @FieldLength(type = "float4",message = "float的取值范围")
+  private float haha;
+  @FieldLength(type ="float8",message = "超出float8的取值范围")
+  private Double dou;
   private UUID UUID;
 }
