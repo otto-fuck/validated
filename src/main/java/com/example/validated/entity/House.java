@@ -25,5 +25,7 @@ public class House {
   private float haha;
   @FieldLength(type ="float8",message = "超出float8的取值范围")
   private Double dou;
+  
+  private Double renminqunzhong
   private UUID UUID;
 }
